@@ -72,7 +72,6 @@
 				mimes[mime] = when.resolve(converter);
 				return mimes[mime];
 			};
-
 		}
 
 		Registry.prototype = {
